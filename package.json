@@ -1,0 +1,7 @@
+{
+  "packageManager": "pnpm@11.9.0",
+  "dependencies": {
+    "@neon/config": "^1.8.6",
+    "@neon/env": "^1.5.3"
+  }
+}
