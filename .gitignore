@@ -1,3 +1,5 @@
 .neon
 .env.local
+.env.dev
 node_modules/
+.pnpm-store/

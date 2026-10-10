@@ -1,7 +1,19 @@
 {
   "packageManager": "pnpm@11.9.0",
+  "scripts": {
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
+  },
   "dependencies": {
     "@neon/config": "^1.8.6",
-    "@neon/env": "^1.5.3"
+    "@neon/env": "^1.5.3",
+    "drizzle-orm": "^0.45.4",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.23.1",
+    "dotenv": "^18.0.6",
+    "drizzle-kit": "^0.31.11"
   }
 }
